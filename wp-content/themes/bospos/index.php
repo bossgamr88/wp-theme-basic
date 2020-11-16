@@ -1,5 +1,7 @@
 <?php 
 
+// theme done part-1
+
 get_header();
 
 	//  Default loop concept
