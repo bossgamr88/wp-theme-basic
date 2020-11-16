@@ -1,4 +1,7 @@
 <?php 
+
+get_header();
+
 	//  Default loop concept
 if(have_posts()) :
 	while (have_posts()) : 
@@ -12,5 +15,8 @@ if(have_posts()) :
 	else : 
 		echo "<p>No Content found</p>";
 endif;
+
+get_sidebar();
+get_footer();
 
 ?>
